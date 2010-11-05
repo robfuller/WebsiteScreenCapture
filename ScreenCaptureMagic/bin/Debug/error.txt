@@ -1,0 +1,7 @@
+8/24/2010 12:00:00 AM - 15:06:48.0846673
+Index was outside the bounds of the array.
+ScreenCaptureMagic
+   at ScreenCaptureMagic.SpiderAndCapture.determineFilename(String url) in C:\Users\rfuller\Documents\Code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\SpiderAndCapture.cs:line 116
+   at ScreenCaptureMagic.SpiderAndCapture.processUrl(String url) in C:\Users\rfuller\Documents\Code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\SpiderAndCapture.cs:line 44
+   at ScreenCaptureMagic.SpiderAndCapture..ctor(String startingUrl) in C:\Users\rfuller\Documents\Code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\SpiderAndCapture.cs:line 32
+   at ScreenCaptureMagic.Program.Main(String[] args) in C:\Users\rfuller\Documents\Code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\Program.cs:line 20

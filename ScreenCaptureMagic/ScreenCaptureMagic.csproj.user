@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartArguments>
+    </StartArguments>
+    <StartWorkingDirectory>C:\Users\rob\Documents\temp\screencapture\</StartWorkingDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <StartArguments>http://www.jessandrob.com/</StartArguments>
+    <StartWorkingDirectory>C:\Users\rob\Documents\temp\screencapture\</StartWorkingDirectory>
+  </PropertyGroup>
+</Project>

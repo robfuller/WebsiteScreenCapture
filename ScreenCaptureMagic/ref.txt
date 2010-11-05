@@ -1,0 +1,14 @@
+10:49 AMSean Iannuzzithis my have been the one I used: _http://www.codeproject.com/KB/dotnet/apmilhtml.aspx
+but this looks like the newer one
+_http://www.codeproject.com/KB/recipes/AfterWork_HTML_Parser.aspx
+
+
+10:51 AMSean IannuzziI will find the actual one that I used and send you that link
+
+
+11:19 AMSean IannuzziI loaded up the cxweb and this is the one that looks the closest to what I used: _http://www.codeproject.com/KB/miscctrl/csEXWB.aspx
+has a complete DOM tree
+
+http://htmlagilitypack.codeplex.com/wikipage?title=Examples&referringTitle=Home
+
+http://stackoverflow.com/questions/1184434/html-parser-object-model-for-net-c

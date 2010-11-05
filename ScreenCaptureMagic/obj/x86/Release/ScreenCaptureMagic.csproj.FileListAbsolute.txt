@@ -1,0 +1,15 @@
+C:\Users\rob\Documents\code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\bin\Release\ScreenCaptureMagic.exe
+C:\Users\rob\Documents\code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\bin\Release\ScreenCaptureMagic.pdb
+C:\Users\rob\Documents\code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\rob\Documents\code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\obj\x86\Release\ScreenCaptureMagic.exe
+C:\Users\rob\Documents\code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\obj\x86\Release\ScreenCaptureMagic.pdb
+C:\Users\rfuller\Documents\Code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\obj\x86\Release\ScreenCaptureMagic.exe
+C:\Users\rfuller\Documents\Code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\obj\x86\Release\ScreenCaptureMagic.pdb
+C:\Users\rfuller\Documents\Code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\bin\Release\ScreenCaptureMagic.exe
+C:\Users\rfuller\Documents\Code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\bin\Release\ScreenCaptureMagic.pdb
+C:\Users\rfuller\Documents\Code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\rfuller\Documents\Code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\bin\Release\ScreenCaptureMagic.exe.config
+C:\Users\rob\Documents\code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\bin\Release\ScreenCaptureMagic.exe.config
+C:\Users\rob\Documents\code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\obj\x86\Release\ScreenCaptureMagic.AppStarter.resources
+C:\Users\rob\Documents\code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\obj\x86\Release\ResGen.read.1.tlog
+C:\Users\rob\Documents\code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\obj\x86\Release\ResGen.write.1.tlog
