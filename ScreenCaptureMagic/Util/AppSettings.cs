@@ -76,6 +76,15 @@ namespace ScreenCaptureMagic.Util
             set { _constrainToChildUrls = value; }
         }
 
+        bool _followJavascriptLinks = false;
+
+        public bool FollowJavascriptLinks
+        {
+            get { return _followJavascriptLinks; }
+            set { _followJavascriptLinks = value; }
+        }
+
+
         bool _ignoreQueryStrings = true;
 
         public bool IgnoreQueryStrings
@@ -90,6 +99,14 @@ namespace ScreenCaptureMagic.Util
         {
             get { return _base_url; }
             set { _base_url = value; }
+        }
+
+        private bool _takeScreenShots = true;
+
+        public bool TakeScreenShots
+        {
+            get { return _takeScreenShots; }
+            set { _takeScreenShots = value; }
         }
 
     }

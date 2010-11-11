@@ -11,5 +11,52 @@ namespace ScreenCaptureMagic.Util
         {
             Console.WriteLine(message);
         }
+        public static string safeDirectoryCreate(string directoryName)
+        {
+            try
+            {
+                bool safe = false;
+                int x = 1;
+                string dir = directoryName;
+
+                while (!safe)
+                {
+                    if (System.IO.Directory.Exists(dir))
+                    {
+                        dir = directoryName + "_" + x;
+                        x++;
+                    }
+                    else safe = true;
+                }
+                System.IO.Directory.CreateDirectory(dir);
+                return dir;
+            }
+            catch //todo - handle permissions issue
+            {
+                throw;
+            }
+        }
+
+        public static string safeFileName(string path,string filename)
+        {
+            try
+            {
+                string confirmed_filename = filename;
+                bool safe = false;
+                int x = 1;
+                while (!safe)
+                {
+                    if(System.IO.File.Exists(System.IO.Path.Combine(path, confirmed_filename)))
+                    {
+                        confirmed_filename = filename + "_" + x;
+                        x++;
+                    }
+                    else safe = true;
+                }
+                return confirmed_filename;
+            }
+            catch { throw; }
+
+        }
     }
 }
