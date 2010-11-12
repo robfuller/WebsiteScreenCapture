@@ -42,13 +42,16 @@ namespace ScreenCaptureMagic.Util
             try
             {
                 string confirmed_filename = filename;
+                string filename_stub = filename.Substring(0, filename.LastIndexOf("."));
+                string extention = filename.Substring(filename.LastIndexOf("."),filename.Length - filename.LastIndexOf("."));
+
                 bool safe = false;
                 int x = 1;
                 while (!safe)
                 {
                     if(System.IO.File.Exists(System.IO.Path.Combine(path, confirmed_filename)))
                     {
-                        confirmed_filename = filename + "_" + x;
+                        confirmed_filename = filename_stub + "_" + x + extention;
                         x++;
                     }
                     else safe = true;

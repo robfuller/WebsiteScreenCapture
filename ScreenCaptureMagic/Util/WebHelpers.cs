@@ -27,6 +27,8 @@ namespace ScreenCaptureMagic.Util
         private void loadPage(Uri uri)
         {
             AppHelpers.statusMessage("Navigating to " + uri.ToString());
+        
+            
             _wb.Navigate(uri);
             DateTime startTime = DateTime.Now;
             while (_wb.ReadyState != WebBrowserReadyState.Complete)
@@ -61,9 +63,13 @@ namespace ScreenCaptureMagic.Util
             foreach (HtmlElement e in _wb.Document.Links)
             {
                 string u = e.GetAttribute("href");
+                page.All_links.Add(u);                
+            }
+            foreach (HtmlElement e in _wb.Document.GetElementsByTagName("frame"))
+            {
+                string u = e.GetAttribute("src");
                 page.All_links.Add(u);
             }
-
             return page;
         }
 
@@ -76,6 +82,7 @@ namespace ScreenCaptureMagic.Util
 
                 string path = System.IO.Path.Combine(System.IO.Directory.GetCurrentDirectory(), "screen_caps");
                 string filename = Util.AppHelpers.safeFileName(path, StaticWebHelpers.determineFilename(_wb.Url.ToString()));
+                filename = System.IO.Path.Combine(path, filename);
 
                 Bitmap bitmap = new Bitmap(_wb.Width, _wb.Height);
                 _wb.DrawToBitmap(bitmap, new Rectangle(0, 0, _wb.Width, _wb.Height));

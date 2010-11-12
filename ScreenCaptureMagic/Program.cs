@@ -19,7 +19,7 @@ namespace ScreenCaptureMagic
                 if (args.Length > 0)
                 {
                     url = args[0];
-                    SpiderSite c = new SpiderSite(url);
+                    SpiderBasedRun c = new SpiderBasedRun(url);
                     GenerateReport.createReport(c.Site_info);
                     
                 }

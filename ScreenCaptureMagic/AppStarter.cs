@@ -43,7 +43,7 @@ namespace ScreenCaptureMagic
 
             executeButton.Text = "Spidering...";
             executeButton.Enabled = false;
-            SpiderSite exec = new SpiderSite(uri.ToString(), _settings);
+            SpiderBasedRun exec = new SpiderBasedRun(uri.ToString(), _settings);
             executeButton.Text = "Reporting...";
             GenerateReport.createReport(exec.Site_info);
             executeButton.Text = "Generating Lists";
@@ -72,7 +72,13 @@ namespace ScreenCaptureMagic
 
         private void ExecuteByFile_Click(object sender, EventArgs e)
         {
-           
+            ExecuteByFile.Text = "running";
+            consolidateSettings();
+
+            ExecuteByFile.Text = "complete... Running reports.";
+
+            ExecuteByFile.Text = "Execute";
+
         }
 
         private void fileDialog_filepath_TextChanged(object sender, EventArgs e)

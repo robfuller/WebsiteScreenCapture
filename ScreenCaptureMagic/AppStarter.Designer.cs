@@ -49,8 +49,8 @@
             this.fileDialog_filepath = new System.Windows.Forms.TextBox();
             this.FileDialogBrowse = new System.Windows.Forms.Button();
             this.Settings = new System.Windows.Forms.TabPage();
-            this.ByFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.followJSLinks = new System.Windows.Forms.CheckBox();
+            this.ByFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.SpiderTab.SuspendLayout();
             this.Spider.SuspendLayout();
             this.FileTab.SuspendLayout();
@@ -200,7 +200,7 @@
             this.addressBox.Name = "addressBox";
             this.addressBox.Size = new System.Drawing.Size(315, 20);
             this.addressBox.TabIndex = 11;
-            this.addressBox.Text = "http://";
+            this.addressBox.Text = "http://hh-sonyecatalog.cloudapp.net/";
             // 
             // FileTab
             // 
@@ -268,11 +268,6 @@
             this.Settings.UseVisualStyleBackColor = true;
             this.Settings.Click += new System.EventHandler(this.Settings_Click);
             // 
-            // ByFileDialog
-            // 
-            this.ByFileDialog.FileName = "ByFile_Filename";
-            this.ByFileDialog.FileOk += new System.ComponentModel.CancelEventHandler(this.ByFileDialog_FileOk);
-            // 
             // followJSLinks
             // 
             this.followJSLinks.AutoSize = true;
@@ -282,6 +277,11 @@
             this.followJSLinks.TabIndex = 2;
             this.followJSLinks.Text = "Follow Javascript Links?";
             this.followJSLinks.UseVisualStyleBackColor = true;
+            // 
+            // ByFileDialog
+            // 
+            this.ByFileDialog.FileName = "ByFile_Filename";
+            this.ByFileDialog.FileOk += new System.ComponentModel.CancelEventHandler(this.ByFileDialog_FileOk);
             // 
             // AppStarter
             // 

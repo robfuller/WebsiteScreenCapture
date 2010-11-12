@@ -51,6 +51,7 @@
     <Compile Include="AppStarter.Designer.cs">
       <DependentUpon>AppStarter.cs</DependentUpon>
     </Compile>
+    <Compile Include="FileBasedRun.cs" />
     <Compile Include="FilebasedScreenCapture.cs" />
     <Compile Include="GenerateLists.cs" />
     <Compile Include="GenerateReport.cs" />
@@ -59,7 +60,7 @@
     <Compile Include="Models\SiteInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SpiderSite.cs" />
+    <Compile Include="SpiderBasedRun.cs" />
     <Compile Include="Util\AppHelpers.cs" />
     <Compile Include="Util\AppSettings.cs" />
     <Compile Include="Util\ImageHelpers.cs" />

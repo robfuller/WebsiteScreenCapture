@@ -8,6 +8,21 @@ namespace ScreenCaptureMagic.Util
     class AppSettings
     {
         int _pageTimeoutInSeconds = 10;
+        int _flashLoadAllowanceInMilliseconds = 3000;
+        int _maxDepthToSpider = 0;
+        int _minBrowserHeight = 760;
+        int _defaultBrowserWidth = 1024;
+
+        string[] _excludeFileExtentions = { "#", ".jpg", ".jpeg", ".gif", ".zip", ".exe", ".ppt", ".pptx", ".docx", ".doc", ".xls", ".xlsx", ".pdf/", ".pdf", ".js", ".swf", ".css", ".mp3", ".wav", ".mov", ".mpeg", ".avi", ".png" };
+        string _fileLocation = "";
+        string _base_url;
+
+
+        bool _constrainToChildUrls = true;
+        bool _followJavascriptLinks = true;
+        bool _ignoreQueryStrings = true;
+        bool _takeScreenShots = true;
+
 
         public int PageTimeoutInSeconds
         {
@@ -15,7 +30,6 @@ namespace ScreenCaptureMagic.Util
             set { _pageTimeoutInSeconds = value; }
         }
 
-        int _flashLoadAllowanceInMilliseconds = 3000;
 
         public int FlashLoadAllowanceInSeconds
         {
@@ -29,7 +43,6 @@ namespace ScreenCaptureMagic.Util
             set { _flashLoadAllowanceInMilliseconds = value; }
         }
 
-        private int _maxDepthToSpider = 0;
 
         public int MaxDepthToSpider
         {
@@ -37,14 +50,12 @@ namespace ScreenCaptureMagic.Util
             set { _maxDepthToSpider = value; }
         }
 
-        string[] _excludeFileExtentions = { "#", ".jpg", ".jpeg", ".gif", ".zip", ".exe", ".ppt", ".pptx", ".docx", ".doc", ".xls", ".xlsx", ".pdf/", ".pdf", ".js", ".swf", ".css", ".mp3", ".wav", ".mov", ".mpeg", ".avi", ".png" };
 
         public string[] ExcludeFileExtentions
         {
             get { return _excludeFileExtentions; }
             set { _excludeFileExtentions = value; }
         }
-        string _fileLocation = "";
 
         public string FileLocation
         {
@@ -52,15 +63,13 @@ namespace ScreenCaptureMagic.Util
             set { _fileLocation = value; }
         }
 
-        int _minBrowserHeight = 760;
-
+        
         public int MinBrowserHeight
         {
             get { return _minBrowserHeight; }
             set { _minBrowserHeight = value; }
         }
 
-        int _defaultBrowserWidth = 1024;
 
         public int DefaultBrowserWidth
         {
@@ -68,7 +77,6 @@ namespace ScreenCaptureMagic.Util
             set { _defaultBrowserWidth = value; }
         }
 
-        bool _constrainToChildUrls = true;
 
         public bool ConstrainToDeeperUrls
         {
@@ -76,7 +84,6 @@ namespace ScreenCaptureMagic.Util
             set { _constrainToChildUrls = value; }
         }
 
-        bool _followJavascriptLinks = false;
 
         public bool FollowJavascriptLinks
         {
@@ -85,7 +92,6 @@ namespace ScreenCaptureMagic.Util
         }
 
 
-        bool _ignoreQueryStrings = true;
 
         public bool IgnoreQueryStrings
         {
@@ -93,7 +99,6 @@ namespace ScreenCaptureMagic.Util
             set { _ignoreQueryStrings = value; }
         }
 
-        string _base_url;
 
         public string Base_url
         {
@@ -101,8 +106,7 @@ namespace ScreenCaptureMagic.Util
             set { _base_url = value; }
         }
 
-        private bool _takeScreenShots = true;
-
+        
         public bool TakeScreenShots
         {
             get { return _takeScreenShots; }

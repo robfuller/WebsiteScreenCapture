@@ -1,1 +1,0 @@
-ScreenCaptureMagic.exe http://www.januvia.com/sitagliptin/januvia/consumer/type-2-diabetes-medicine/learn-about-diabetes.jsp?WT.svl=5

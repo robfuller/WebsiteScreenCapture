@@ -18,3 +18,12 @@ C:\Users\rob\Documents\Code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\bin\De
 C:\Users\rob\Documents\code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\obj\x86\Debug\ScreenCaptureMagic.AppStarter.resources
 C:\Users\rob\Documents\code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\obj\x86\Debug\ResGen.read.1.tlog
 C:\Users\rob\Documents\code\c-sharp\ScreenCaptureMagic\ScreenCaptureMagic\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\rob\Documents\code\c-sharp\websitescreencapture\WebsiteScreenCapture\ScreenCaptureMagic\bin\Debug\ScreenCaptureMagic.exe.config
+C:\Users\rob\Documents\code\c-sharp\websitescreencapture\WebsiteScreenCapture\ScreenCaptureMagic\obj\x86\Debug\ScreenCaptureMagic.exe
+C:\Users\rob\Documents\code\c-sharp\websitescreencapture\WebsiteScreenCapture\ScreenCaptureMagic\obj\x86\Debug\ScreenCaptureMagic.pdb
+C:\Users\rob\Documents\code\c-sharp\websitescreencapture\WebsiteScreenCapture\ScreenCaptureMagic\bin\Debug\ScreenCaptureMagic.exe
+C:\Users\rob\Documents\code\c-sharp\websitescreencapture\WebsiteScreenCapture\ScreenCaptureMagic\bin\Debug\ScreenCaptureMagic.pdb
+C:\Users\rob\Documents\code\c-sharp\websitescreencapture\WebsiteScreenCapture\ScreenCaptureMagic\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\rob\Documents\code\c-sharp\websitescreencapture\WebsiteScreenCapture\ScreenCaptureMagic\obj\x86\Debug\ScreenCaptureMagic.AppStarter.resources
+C:\Users\rob\Documents\code\c-sharp\websitescreencapture\WebsiteScreenCapture\ScreenCaptureMagic\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\rob\Documents\code\c-sharp\websitescreencapture\WebsiteScreenCapture\ScreenCaptureMagic\obj\x86\Debug\ResGen.write.1.tlog
