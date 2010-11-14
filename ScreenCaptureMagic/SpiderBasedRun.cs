@@ -63,11 +63,8 @@ namespace ScreenCaptureMagic
             try
             {
              
-                _site_info.URIs.Add(uri);
-
-                
-                page = _wbh.processPage(uri);
-          
+                _site_info.URIs.Add(uri);                
+                page = _wbh.processPage(uri);          
                 if (_settings.TakeScreenShots)
                 {
                     page.BitmapFilename = _wbh.takeScreenshot();
@@ -93,8 +90,6 @@ namespace ScreenCaptureMagic
                         }
                     }
                 }
-                
-                
 
             }
             catch (Exception ex)
@@ -111,15 +106,11 @@ namespace ScreenCaptureMagic
         {
             try
             {
-                
                 if (_settings.IgnoreQueryStrings) 
                     followUri = StaticWebHelpers.IgnoreQueryString(followUri);
                 
                 if(_site_info.URIs.Contains(followUri)) 
                     return false; //by far the most common case - having followed the url before                
-                                
-                if (_settings.FollowJavascriptLinks && followUri.Scheme.StartsWith("javascript")) 
-                    return true;
  
                 if (!(followUri.Scheme == Uri.UriSchemeHttp || followUri.Scheme == Uri.UriSchemeHttps)) 
                     return false;

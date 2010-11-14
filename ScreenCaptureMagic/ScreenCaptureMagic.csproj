@@ -52,7 +52,6 @@
       <DependentUpon>AppStarter.cs</DependentUpon>
     </Compile>
     <Compile Include="FileBasedRun.cs" />
-    <Compile Include="FilebasedScreenCapture.cs" />
     <Compile Include="GenerateLists.cs" />
     <Compile Include="GenerateReport.cs" />
     <Compile Include="Models\BadUrl.cs" />

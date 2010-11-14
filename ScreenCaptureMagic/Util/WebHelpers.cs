@@ -26,8 +26,7 @@ namespace ScreenCaptureMagic.Util
 
         private void loadPage(Uri uri)
         {
-            AppHelpers.statusMessage("Navigating to " + uri.ToString());
-        
+            AppHelpers.statusMessage("Navigating to " + uri.ToString());        
             
             _wb.Navigate(uri);
             DateTime startTime = DateTime.Now;
